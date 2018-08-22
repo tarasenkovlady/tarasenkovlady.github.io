@@ -1,0 +1,48 @@
+section.about{
+  width: 1440px;
+  height: 448px;
+  border-top: 1px #f2fafa;
+  margin: 0 auto;
+  position: relative;
+}
+
+.about_content{
+  width: 1230px;
+  height: 492px;
+  background-color: rgba(245, 252, 251, 0.7);
+  margin: auto;
+  left: 0;
+  right: 0;
+  top: 5;
+  bottom: 0;
+  position: absolute;
+}
+
+.about_content img{
+  position: absolute;
+  top: 77px;
+  left: 52px;
+}
+
+.content_text{
+  float: right;
+  width: 570px;
+}
+
+.content_text h1{
+  color: #29d9c2;
+  font-family: 'chunkfiveroman';
+  font-size: 3.750em;
+  margin-top: 150px;
+}
+
+.content_text span{
+  color: #01a2a6;
+  font-family: 'chunkfiveroman';
+}
+
+.content_text p{
+  color: #9b9b9b;
+  font-size: 1em;
+  font-family: 'Lato', sans-serif; 
+}

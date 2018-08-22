@@ -1,0 +1,351 @@
+header
+  display: flex
+  flex-direction: column
+  max-width: 1920px
+  position: relative
+  margin: 0 auto
+
+@include mobile
+  header
+    max-width: 1920px
+    height: 481px
+    background: url(../img/header_bg_mobile.png)
+    background-position: center center
+    background-size: cover
+
+@include tablet
+  header
+    max-width: 1920px
+    height: 980px
+    background: url(../img/header_bg.png)
+    background-position: center center
+    background-size: cover
+
+.head
+  position: fixed
+  max-width: 1920px
+  position: relative
+  display: flex
+  justify-content: space-between
+
+@include mobile
+  .head
+    height: 50px
+    background-color: white
+    box-shadow: 0px 5px 5px 0px rgba(203,204,205,0.2)
+
+@include tablet
+  .head
+    height: 50px
+    background-color: white
+    box-shadow: 0px 5px 5px 0px rgba(203,204,205,0.2)
+
+@include desktop
+  .head
+    height: 119px
+    background-color: white
+    box-shadow: 0px 5px 5px 0px rgba(203,204,205,0.2)
+
+@include desktopHD
+  .head
+    max-width: 1920px
+    height: 119px
+    background-color: white
+    box-shadow: 0px 5px 5px 0px rgba(203,204,205,0.2)
+
+@include mobile
+  .logo
+    width: 85px
+    height: 35px
+    background-image: url(../img/logo_mobile.png)
+    background-repeat: no-repeat
+    margin: 8px 0 0 8px
+
+@include tablet
+  .logo
+    width: 85px
+    height: 35px
+    background-image: url(../img/logo_mobile.png)
+    background-repeat: no-repeat
+    margin: 8px 0 0 8px
+
+@include desktop
+  .logo
+    width: 180px
+    height: 72px
+    background-image: url(../img/logo.png)
+    margin: 26px 0 0 7.39%
+
+@include desktopHD
+  .logo
+    width: 180px
+    height: 72px
+    background-image: url(../img/logo.png)
+    margin: 26px 0 0 7.39%
+
+nav
+  display: flex
+  align-items: center
+
+  @include mobile
+    display: none
+
+  @include tablet
+    display: none
+
+  @include desktop
+    display: block
+    display: flex
+    margin-right: 7.39%
+
+  @include desktopHD
+    display: block
+    display: flex
+    margin-right: 7.39%
+
+.menu
+  position: relative
+  display: flex
+  height: 100%
+
+.menu__list
+  display: flex
+  justify-content: center
+  line-height: 100%
+  border-bottom: 4px solid white
+
+.menu__list:hover
+  border-bottom: 4px solid $color-primary
+
+@include desktop
+  .menu
+    display: flex
+
+  .menu__list
+    margin-right: 15px
+
+@include desktopHD
+  .menu
+    display: flex
+
+  .menu__list
+    margin-right: 30px
+
+.menu__link
+  display: flex
+  align-self: center
+  vertical-align: middle
+  height: 100%
+  color: $color-text-main
+  text-decoration: none
+  font-family: $font
+  box-sizing: border-box
+
+  @include mobile
+    font-size: 24px
+
+  @include tablet
+    font-size: 24px
+
+  @include desktop
+    font-size: 16px
+    padding: 50.5px 24px 0
+
+  @include desktopHD
+    font-size: 16px
+    padding: 50.5px 24px 0
+
+.fb
+  width: 30px
+  height: 30px
+  background: url(../img/fb.png)
+  align-self: center
+
+  @include mobile
+      display: none
+
+  @include tablet
+      display: none
+
+  @include desktop
+      display: block
+      margin-left: 30px
+
+  @include desktopHD
+      display: block
+      margin-left: 99px
+
+.fb__link
+  display: block
+  height: 100%
+
+.burger
+  align-self: center
+  margin-right: 8px
+  display: none
+  width: 25px
+  height: 19px
+  background: url(../img/burger.png)
+
+  @include mobile
+    display: block
+
+  @include tablet
+    display: block
+
+  @include desktop
+    display: none
+
+  @include desktopHD
+    display: none
+
+//burger_menu_style
+
+@include mobile
+  .burger_menu_logo
+    z-index: 999
+    margin: 27px 0 0 29px
+
+@include mobile
+  .burger_menu
+    display: block
+    display: flex
+    flex-direction: column
+    align-items: flex-start
+    position: absolute
+    z-index: 99
+    background: white
+    width: 87.5%
+    height: 481px
+    margin: 0
+    box-shadow: 200px 0 0 0 rgba(0,0,0,0.21)
+
+    .close_menu
+      position: absolute
+      z-index: 999
+      width: 17px
+      height: 17px
+      margin-top: 34px
+      margin-left: 85%
+      background: url(../img/close.png)
+
+    .menu
+      display: flex
+      justify-content: flex-start
+      align-items: flex-start
+      flex-direction: column
+
+    .fb
+      display: block
+
+  .ul_burger_menu
+    width: 100%
+    padding: 113px 29px 0 29px
+    box-sizing: border-box
+
+    .menu__list
+      width: 100%
+      height: 61px
+      border-bottom: 1px solid #ccc
+      box-sizing: border-box
+      line-height: 61px
+      text-align: left
+      justify-content: flex-start
+
+
+    .menu__list:hover
+      border-bottom: 1px solid $color-primary
+
+
+@include tablet
+  .burger_menu
+    width: 87.5%
+    height: 980px
+    box-shadow: 200px 0 0 0 rgba(0,0,0,0.21)
+
+    .close_menu
+      margin-left: 90%
+
+    .menu
+      display: flex
+      flex-direction: column
+
+.fb_burger
+  align-self: flex-start
+  margin: 0 0 61px 29px
+  background-repeat: no-repeat
+
+.header_h1, .header_text, .header_button
+  align-self: center
+  font-family: $font
+  text-align: center
+
+.header_h1
+  text-align: center
+  color: $color-text-main
+  font-weight: bold
+
+  @include mobile
+    margin-top: 90px
+    font-size: 38px
+
+  @include tablet
+    margin-top: 184px
+    font-size: 72px
+
+  @include desktop
+    margin-top: 297px
+    font-size: 72px
+
+  @include desktopHD
+    margin-top: 297px
+    font-size: 72px
+
+.header_text
+  color: #696969
+
+  @include mobile
+    margin-top: 28px
+    font-size: 18px
+    letter-spacing: 1px
+
+  @include tablet
+    margin-top: 28px
+    font-size: 28px
+
+  @include desktop
+    margin-top: 43px
+    font-size: 28px
+
+  @include desktopHD
+    margin-top: 43px
+    font-size: 28px
+
+.header_button
+  color: white
+  background: $color-primary
+  border: 0
+  outline: none
+  cursor: pointer
+
+  @include mobile
+    width: 264px
+    height: 60px
+    margin-top: 24px
+    font-size: 12px
+
+  @include desktop
+    width: 300px
+    height: 70px
+    margin-top: 75px
+    font-size: 16px
+
+  @include desktopHD
+    width: 300px
+    height: 70px
+    margin-top: 75px
+    font-size: 16px
+
+.header_button:hover
+  font-weight: bold
+  color: $color-text-main

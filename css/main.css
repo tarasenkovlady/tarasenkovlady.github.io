@@ -1,0 +1,545 @@
+*{margin: 0; padding: 0;}
+
+.wow{
+	visibility: hidden;
+}
+
+
+::-webkit-scrollbar {
+    width: 5px;
+}
+
+::-webkit-scrollbar-track {
+
+}
+
+::-webkit-scrollbar-thumb {
+	background: black;
+	width: 10px;
+}
+
+body{
+	color: #293347;
+    font-size: 1rem;
+    font-weight: 300;
+    line-height: 1.5;
+	font-family: 'Lato', sans-serif;
+}
+
+
+@media screen and (min-width: 320px){
+
+.container{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 90%;
+	min-height: 80px;
+	margin: 0 auto;
+}
+
+.logo{
+	font-size: 1rem;
+	color: #8C43FF;
+}
+
+.download_cv{
+	width: 150px;
+	height: 45px;
+	border: 2px solid #8C43FF;
+	border-radius: 50px;
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	transition: .5s;
+}
+
+.download_cv {
+	width: 150px;
+	height: 45px;
+	border: 2px solid #8C43FF;
+	border-radius: 50px;
+	line-height: 45px;
+	align-self: center;
+	text-decoration: none;
+	color: #8C43FF;
+	font-size: 1rem;
+	font-weight: bold;
+	transition: .5s;
+}
+
+.download_cv:hover{
+	color: white;
+	background: #8C43FF;
+}
+
+.summary{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 0 10px 0 10px;
+	text-align: center;
+}
+
+
+h1{
+	padding-top: 10px;
+	font-size: 1.2rem;
+}
+
+h2{
+	padding-top: 10px;
+	font-size: 1rem;
+	font-weight: normal;
+}
+
+.photo{
+	width: 210px;
+	height: auto;
+	margin: 2rem 0;
+}
+
+.hero{
+	max-width: 100%;
+	width: 860px;
+	height: auto;
+}
+
+.im_info{
+	color: white;
+	background: #8C43FF;
+	padding: 1.5rem 3rem 5rem 3rem;
+}
+
+h3, .text{
+	font-size: 1rem;
+	text-align: center;
+}
+
+.text{
+	padding-top: 15px;
+	font-size: 1rem;
+}
+
+.skills{
+	margin-top: -40px;
+	display: flex;
+	justify-content: center;
+}
+
+.skills_container{
+	display: flex;
+	flex-direction: column;
+	max-width: 1200px;
+	width: 1200px;
+	margin: 0 auto;
+	background: white;
+	margin: 0 10px 0 10px;
+	border-radius: 10px;
+	box-shadow: 0 5px 5px 0 rgba(233,240,243,0.5), 0 0 0 1px #E6ECF8;
+}
+
+
+.column{
+	flex-grow: 1;
+	flex-shrink: 1;
+	height: auto;
+	padding: 50px 30px;
+}
+
+.image{
+	display: flex;
+	justify-content: center;
+}
+
+.skill-icon{
+	height: 48px;
+	width: auto;
+}
+
+.skill_name{
+	text-align: center;
+	font-size: 1.3em;
+	font-weight: 200;
+	padding-top: 15px;
+}
+
+.skill_text{
+	text-align: center;
+	padding-top: 15px;
+}
+
+.skill_ins{
+	line-height: 35px;
+	text-align: center;
+	padding-top: 15px;
+}
+
+
+.skill_ins span{
+	color: #8C43FF;
+	font-weight: bold;
+}
+
+.projects{
+	position: relative;
+	max-width: 1200px;
+/*     width: 1200px; */
+	margin: 0 auto;
+	padding: 5rem 1.5rem;
+}
+
+.projects_container{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.projects_container p{
+	padding-top: 15px;
+	font-size: 1.2em;
+	text-align: center;
+}
+
+
+.works_container{
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	padding-top: 30px;
+}
+
+
+.p1_hover, .p2_hover, .p3_hover, .p4_hover, .p5_hover, .p6_hover{
+	display: flex;
+	flex-direction: column;
+	color: white;
+	justify-content: center;
+	align-items: center;
+	background: #293347;
+	width: 100%;
+	height: 100%;
+	border-radius: 10px;
+	opacity: 0;
+	transition: .5s;
+}
+
+.button_link{
+	color: white;
+	text-decoration: none;
+	display: block;
+	line-height: 40px;
+	height: 40px;
+}
+
+.p1:hover .p1_hover{
+	opacity: 1;
+}
+
+.p2:hover .p2_hover{
+	opacity: 1;
+}
+
+.p3:hover .p3_hover{
+	opacity: 1;
+}
+
+.p4:hover .p4_hover{
+	opacity: 1;
+}
+
+.p5:hover .p5_hover{
+	opacity: 1;
+}
+
+.p6:hover .p6_hover{
+	opacity: 1;
+}
+
+.p1 button, .p2 button, .p3 button, .p4 button, .p5 button, .p6 button{
+	background: #293347;
+	font-size: 1.2em;
+	width: 180px;
+	height: 40px;
+	margin-top: 15px;
+	border: 2px solid #8C43FF;
+	border-radius: 30px;
+	transition: .5s;
+}
+
+.p1 button:hover{
+	background: #8C43FF;
+}
+
+.p2 button:hover{
+	background: #8C43FF;
+}
+
+.p3 button:hover{
+	background: #8C43FF;
+}
+
+.p4 button:hover{
+	background: #8C43FF;
+}
+
+.p5 button:hover{
+	background: #8C43FF;
+}
+
+.p6 button:hover{
+	background: #8C43FF;
+}
+
+.p1{
+	background: url(../img/get_lost.png);
+}
+
+.p2{
+	background: url(../img/elyx.png);
+}
+
+.p3{
+	background: url(../img/veres.png);
+}
+
+.p4{
+	background: url(../img/tripple.png);
+}
+
+.p5{
+	background: url(../img/api_img.jpg);
+}
+
+.p6{
+	background: url(../img/ping.jpg);
+}
+
+.work_prev{
+	width: 100%;
+	height: 250px;
+	background-position: center center;
+	background-size: cover;
+	border-radius: 10px;
+	margin: 5px;
+
+}
+
+.git_link{
+	color: #8C43FF;
+	width: 250px;
+	height: 40px;
+	text-align: center;
+	line-height: 40px;
+	text-decoration: none;
+	font-size: 1.3em;
+    border: 2px solid #8C43FF;
+	border-radius: 30px;
+	margin-top: 30px;
+	transition: .5s;
+}
+
+.git_link:hover{
+	background: #8C43FF;
+	color: white;
+}
+
+.experience{
+	border-top: 1px solid #ccc;
+	padding: 1rem 3rem 10rem 3rem;
+	text-align: center;
+}
+
+.experience div{
+	display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.logo_company{
+	width: 195px;
+	height: 42px;
+	padding-top: 30px;
+	padding: 30px 0 0 0;
+}
+
+footer{
+	background: #8C43FF;
+	padding: 50px;
+	height: 200px;
+}
+
+.phone{
+	display: block;
+	color: white;
+	font-size: 1.3em;
+	text-decoration: none;
+	text-align: center;
+	padding: 25px 0 25px 0;
+	font-weight
+
+}
+
+
+footer p{
+	color: white;
+	font-size: 2em;
+	text-align: center;
+}
+
+.footer_content{
+	display: flex;
+	justify-content: center;
+}
+
+.footer_content a{
+	margin: 10px;
+	transition: .5s;
+	opacity: .4;
+}
+
+.footer_content a:hover{
+	opacity: 1;
+}
+
+.fb, .fb img{
+	width: 47px;
+	height: 47px;
+}
+
+.border{
+	border-top: 1px solid #ccc;
+	border-bottom: 1px solid #ccc;
+}
+
+
+
+
+
+
+}
+
+@media screen and (min-width: 640px){
+
+.logo, .download_cv{
+	font-size: 1rem;
+	font-weight: bold;
+}
+
+h1{
+	font-size: 2rem;
+}
+
+h2{
+	font-size: inherit;
+	font-weight: normal;
+}
+
+.im_info{
+	padding: 2.5rem 0 10rem 0;
+}
+
+.im_info_text{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-content: center;
+}
+
+h3{
+	font-size: 2rem;
+}
+
+.text{
+	padding-top: 30px;
+	font-size: 1.2rem;
+}
+
+.skills{
+	margin-top: -100px;
+}
+
+.skill_name{
+	font-size: 1.5em;
+	font-weight: 800;
+}
+
+.work_prev{
+	width: 48%;
+}
+
+.experience{
+	border-top: 1px solid #ccc;
+	padding: 3rem 10rem 13rem 10rem;
+	text-align: center;
+}
+
+.border{
+	border-top: 0;
+	border-bottom: 0;
+	border-left: 1px solid #ccc;
+	border-right: 1px solid #ccc;
+}
+
+
+
+
+}
+
+@media screen and (min-width: 1024px){
+
+h1{
+	font-size: 2.5rem;
+}
+
+.im_info{
+	padding: 5rem 15rem 20rem 15rem;
+}
+
+.skills{
+	margin-top: -160px;
+}
+
+.border{
+	border-left: 1px solid #ccc;
+	border-right: 1px solid #ccc;
+}
+
+.skills_container{
+	flex-direction: row;
+	box-shadow: 0 5px 5px 0 rgba(233,240,243,0.5), 0 0 0 1px #E6ECF8;
+}
+
+.column{
+	width: 33%;
+	padding: 70px 45px;
+}
+
+.projects{
+	padding: 9rem 1.5rem;
+}
+
+.works_container{
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.work_prev{
+	width: 32%;
+	height: 250px;
+}
+
+.experience{
+	border-top: 1px solid #ccc;
+	padding: 5rem 15rem 20rem 15rem;
+	text-align: center;
+}
+
+
+
+
+
+
+}

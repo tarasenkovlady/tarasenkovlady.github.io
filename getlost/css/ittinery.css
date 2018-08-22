@@ -1,0 +1,361 @@
+.ittinery{
+  width: 1440px;
+  height: 1283px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.set{
+  text-align: center;
+}
+
+p.set_head{
+  color: #01a2a6;
+  font-family: 'chunkfiveroman';
+  font-size: 4.188em;
+  padding-top: 74px;
+}
+.set span{
+  font-family: 'chunkfiveroman';
+  color: #29d9c2;
+}
+
+.set_text {
+  margin: 0 auto;
+  padding-top: 65px;
+  width: 730px;
+  color: #ccc;
+  font-size: 16px;
+  font-family: 'Lato', sans-serif;
+}
+
+.form{
+  width: 670px;
+  height: 714px;
+  background: url('../img/form.png');
+  float: left;
+  margin-top: 146px;
+}
+
+p.form_header{
+  text-align: center;
+  margin-top: 29px;
+  color: white;
+  font-family: 'Lato', sans-serif;
+  font-size: 18px;
+}
+
+.form_day1{
+  float: left;
+  font-family: 'Lato', sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+  color: #62e3bb;
+  margin-left: 44px;
+  margin-top: 59px;
+}
+
+.form_day2{
+  float: left;
+  font-family: 'Lato', sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+  color: #62e3bb;
+  margin-left: 44px;
+  margin-top: 59px;
+}
+
+.form_select_day1{
+  float: right;
+  border: none;
+  margin-right: 44px;
+  margin-top: 59px;
+}
+
+.form_select_day2{
+  float: right;
+  border: none;
+  margin-right: 44px;
+  margin-top: 59px;
+}
+
+.select_day1{
+  background: transparent;
+  border: 0;
+  appearance: none;
+  font-family: 'Lato', sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+  color: #62e3bb;
+}
+.input{
+  position: relative;
+}
+
+.input input{
+  outline: none;
+  width: 498px;
+  height: 70px;
+  border: 1px solid #d5d57d;
+  border-radius: 5px;
+  margin-left: 40px;
+  margin-top: 18px;
+  padding-left: 100px;
+  font-family: 'Lato', sans-serif;
+  font-size: 24px;
+  color: #626262;
+}
+
+.drag input{
+  outline: none;
+  width: 600px;
+  height: 70px;
+  border: 2px solid #d5d57d;
+  background: #fbf6a3;
+  border-style: dashed;
+  border-radius: 5px;
+  margin-left: 40px;
+  margin-top: 18px;
+  text-align: center;
+  font-family: 'Lato', sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+  color: #626262;
+  cursor: pointer;
+}
+
+.time_bromo{
+  width: 107px;
+  height: 15px;
+  background: url('../img/time_bromo.png');
+  position: absolute;
+  left: 510px;
+  top: 135px;
+}
+
+.time_batu{
+  width: 106px;
+  height: 15px;
+  background: url('../img/time_batu.png');
+  position: absolute;
+  left: 510px;
+  top: 50px;
+}
+
+.vector_input{
+  width: 63px;
+  height: 31px;
+  background: url('../img/inputvector1.png');
+  position: absolute;
+  top: 119px;
+  left: 62px;
+}
+
+.vector_input_batu{
+  width: 45px;
+  height: 48px;
+  background: url('../img/inputvector2.png');
+  position: absolute;
+  top: 31px;
+  left: 72px;
+}
+
+.add_sub button{
+  width: 197px;
+  height: 39px;
+  background: #f5e99e;
+  color: #d8cb7d;
+  font-family: 'Lato', sans-serif;
+  font-size: 16px;
+  padding-right: 40px;
+  border-radius: 0px 0px 5px 5px;
+  margin-left: 434px;
+  cursor: pointer;
+  position: relative;
+}
+
+.add_sub_batu button{
+  width: 197px;
+  height: 39px;
+  background: #f5e99e;
+  color: #d8cb7d;
+  font-family: 'Lato', sans-serif;
+  font-size: 16px;
+  padding-right: 40px;
+  border-radius: 0px 0px 5px 5px;
+  margin-left: 434px;
+  cursor: pointer;
+  position: relative;
+}
+
+.button_icon{
+  width: 22px;
+  height: 22px;
+  background: url('../img/button_icon.png');
+  position: absolute;
+  left: 160px;
+  top: 9px;
+}
+
+
+.added_block{
+  width: 568px;
+  height: 45px;
+  background: #f5e99e;
+  margin-left: 63px;
+  border-radius: 0px 0px 0px 10px;
+  color: #aea25c;
+  font-family: 'Lato', sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  line-height: 45px;
+  display: none;
+  border-bottom: 1px solid #aea25c;
+}
+
+.added_block_batu{
+  width: 568px;
+  height: 45px;
+  background: #f5e99e;
+  margin-left: 63px;
+  border-radius: 0px 0px 0px 10px;
+  color: #aea25c;
+  font-family: 'Lato', sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  line-height: 45px;
+  display: none;
+  border-bottom: 1px solid #aea25c;
+}
+
+.list{
+  width: 470px;
+  height: 714px;
+  float: right;;
+  margin-top: 146px;
+  margin-right: 135px;
+}
+
+.list_header{
+  text-align: center;
+  font-family: 'Lato', sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+  color: #29d9c2;
+  width: 148px;
+  height: 35px;
+  border-bottom: 3px solid #29d9c2;
+  margin: 0 auto;
+  margin-top: 28px;
+}
+
+.list_search{
+  font-family: 'Lato', sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+  color: #29d9c2;
+  margin-top: 48px;
+}
+
+.list_select{
+  background: transparent;
+  border: 0;
+  appearance: none;
+  font-family: 'Lato', sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+  color: #ccc;
+}
+
+.list_select:active, :hover, :focus {
+    outline: 0;
+    outline-offset: 0;
+}
+
+
+.input_div{
+  outline: none;
+  width: 445px;
+  height: 70px;
+  border: 1px solid #e8e8e8;
+  border-radius: 5px;
+  margin-top: 18px;
+  font-family: 'Lato', sans-serif;
+  font-size: 24px;
+  color: #626262;
+  box-shadow: 0px 5px 5px 0px rgba(232,232,232,1);
+  position: relative;
+}
+
+.input_div input{
+  outline: none;
+  width: 300px;
+  height: 20px;
+  border: 0px solid;
+  border-radius: 5px;
+  margin-top: 18px;
+  padding-left: 15px;
+  font-family: 'Lato', sans-serif;
+  font-size: 24px;
+  color: #626262;
+}
+
+
+.input_div input:active, :hover, :focus {
+    outline: 0;
+    outline-offset: 0;
+}
+
+.input_text{
+  font-family: 'Lato', sans-serif;
+  font-size: 14px;
+  color: #ccc;
+  margin-left: 16px;
+  margin-top: 3px;
+
+}
+
+.input_text span{
+  color: #29d9c2;
+  font-weight: bold;
+}
+
+.input_link{
+  width: 74px;
+  height: 49px;
+  float: right;
+  background: url('../img/input_link.png');
+  position: absolute;
+  left: 345px;
+  top: 10px;
+  bottom: 0;
+}
+
+.ittinery_button{
+  position: absolute;
+  top: 1140px;
+  left: 343px;
+  right: 0;
+}
+
+.ittinery_button1{
+  width: 167px;
+  height: 64px;
+  background: url('../img/save_pdf.png');
+  border-radius: 50px;
+}
+
+.ittinery_button2{
+  width: 136px;
+  height: 64px;
+  margin-left: 27px;
+  border-radius: 50px;
+  background: url('../img/print.png');
+}
+
+
+.ittinery_button1:active, .ittinery_button1:focus {
+  outline: none;
+}
